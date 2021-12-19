@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url(./Walden_Landing_Video_-_Desktop-High-96k_updated_compressed\ 1.png) no-repeat center center/cover;
+    height: 100vh;
+}
+.circle{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #fbfbff;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+nav{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 2em;
+}
+.navbar-collopse{
+    width: 40%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    list-style: none;
+}
+ul li{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    
+    text-transform: uppercase;
+    
+    color: #E9E9E9;
+    font-style: normal;
+}
+.btn-in{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    font-style: normal;
+/* identical to box height, or 100% */
+
+
+    color: #000000;
+    margin: 40% auto 0;
+    flex-direction: column-reverse;
+    padding: 10px 20px;
+    border: 1px solid black;    
+    display: flex;
+    border-radius: 5px;
+}
+.card{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    font-style: normal;
+    /* or 130% */
+    text-align: center;
+    
+    color: #757575;
+    margin: 40px 0 40px 0;
+}
+.main-card{
+    display: flex !important;
+    justify-content: space-around;
+}
+.card-img{
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 60, 0.);
+    width: 20rem;
+    margin: 30px;
+    position: relative;
+}
+.card-img p{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+/* identical to box height, or 150% */
+
+
+    color: #757575;
+    display: flex;
+}
+.card-img2{
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 60, 0.);
+    width: 20rem;
+    margin: 30px;
+    position: relative;
+}
+.card-img2 p{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+/* identical to box height, or 150% */
+
+
+    color: #757575;
+}
+.card-img3{
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 60, 0.);
+    width: 20rem;
+    margin: 30px;
+    position: relative;
+}
+.card-img3 p{
+    justify-content: flex-end;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+/* identical to box height, or 150% */
+
+
+    color: #757575;
+}
+.card2{
+    background: url(/5.png) no-repeat center center/cover;
+    height: 100vh;
+    margin: 10px 10px 10px 10px;
+}
+.card-h{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 14px;
+    font-weight: normal;
+/* identical to box height, or 54% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    padding: 10px 0;
+
+}
+.btn-in2{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    font-style: normal;
+/* identical to box height, or 100% */
+
+
+    color: #000000;
+    margin: 40% auto 0;
+    flex-direction: column-reverse;
+    padding: 10px 20px;
+    border: 1px solid black;    
+    display: flex;
+}
+.card-group{
+    display: flex;
+    justify-content: space-around;
+}
+.card3{
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.);
+    width: 20rem;
+    margin: 30px;
+    position: relative;
+}
+.card-group-in{
+    position: absolute;
+    top: 27rem;
+    left: 25px;
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 25px;
+    width: 20rem;
+    margin: 0 auto;
+}
+.card-group-in p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+/* or 150% */
+
+
+    color: #757575;
+}
+.card4{
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.);
+    width: 20rem;
+    margin: 30px;
+    position: relative;
+}
+.card-group-in2{
+    position: absolute;
+    top: 27rem;
+    left: 25px;
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 25px;
+    width: 20rem;
+    margin: 0 auto;
+}
+.card-group-in2 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+/* or 150% */
+
+
+    color: #757575;
+}
+.card5{
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.);
+    width: 20rem;
+    margin: 30px;
+    position: relative;
+}
+.card-group-in3{
+    position: absolute;
+    top: 27rem;
+    left: 25px;
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 25px;
+    width: 20rem;
+    margin: 0 auto;
+}
+.card-group-in3 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+/* or 150% */
+
+
+    color: #757575;
+}
+.main-card-text{
+    display: flex;
+    justify-content: space-between;
+}
+.card-text{
+    margin: 20px;
+    text-align: center;
+}
+.card-text p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #848484;
+}
+.card-text2{
+    margin: 20px;
+    text-align: center;
+
+}
+.card-text2 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+
+    color: #848484;
+    text-align: center;
+}
+.card-text3{
+    margin: 20px;
+    text-align: center;
+
+}
+.card-text3 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+
+    color: #848484;
+    text-align: center;
+}
+.main2-ct{
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+}
+.ct4{
+    margin: 20px;
+    text-align: center;
+
+}
+.ct4 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+
+    color: #848484;
+    text-align: center;
+}
+.ct5{
+    margin: 20px;
+    text-align: center;
+
+}
+.ct5 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+
+    color: #848484;
+    text-align: center;
+}
+.ct6{
+    margin: 20px;
+    text-align: center;
+
+}
+.ct6 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+
+    color: #848484;
+    text-align: center;
+}
+.blue2{
+    background: url(./blue2.png);
+    height: 100vh;
+}
+.navbar2-brend h3{
+    text-align: center;
+    color: white;
+}
+.btn-in3{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    font-style: normal;
+/* identical to box height, or 100% */
+
+
+    color: #000000;
+    margin: 40% auto 0;
+    flex-direction: column-reverse;
+    padding: 10px 20px;
+    border: 1px solid black;    
+    display: flex;
+    border-radius: 5px;
+}
+.text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height, or 120% */
+
+
+    color: #8C8C8C;
+    margin: 80px 0 20px 0;
+}
+.main-card-img{
+    display: flex;
+    justify-content: space-between;
+} 
+.card-img4{ 
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 60, 0.);
+    width: 20rem;
+    margin: 30px;
+    position: relative;
+}
+.card-img4 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+
+    color: #757575;
+
+}
+.card-img5{ 
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 60, 0.);
+    width: 20rem;
+    margin: 30px;
+    position: relative;
+}
+.card-img5 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+
+    color: #757575;
+
+}
+.card-img6{ 
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 60, 0.);
+    width: 20rem;
+    margin: 30px;
+    position: relative;
+}
+.card-img6 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+
+    color: #757575;
+
+}
+.main-foot{
+    margin: 30px;
+    text-align: center;
+}
+.foot h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #9B9B9B;
+}
+.btn-in4{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    font-style: normal;
+    /* identical to box height, or 100% */
+
+    text-align: center !important;
+     
+    color: #000000;
+    flex-direction: column;
+    padding: 10px 20px;
+    border: 1px solid black;    
+    border-radius: 5px;
+    margin: 10px;
+}
+.main2-foot{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.main2-foot h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+
+    color: #8C8C8C;
+
+}
+.footer{
+    background: #8d8c8c;
+    border-radius: 0px;
+    margin: 20px;
+    padding: 10px 20px;
+}
+.footer h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+
+    color: #3C3C3C;
+    text-align: center;
+}
